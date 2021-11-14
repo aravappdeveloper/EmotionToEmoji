@@ -48,7 +48,7 @@ function gotResult(error, results){
     document.getElementById("result_emotion_name2").innerHTML = results[1].label;
 
     prediction_1 = results[0].label;
-    prediction_1 = results[1].label;
+    prediction_2 = results[1].label;
 
     speak();
 
